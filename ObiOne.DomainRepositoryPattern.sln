@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObiOne.DomainRepositoryPattern.Core.Specs", "Core\ObiOne.DomainRepositoryPattern.Core.Specs\ObiOne.DomainRepositoryPattern.Core.Specs.csproj", "{AEFB03C1-1473-48D5-A384-F5AC2839A299}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F859DCD2-0997-4E63-9637-6059AB98DCDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Specialized", "Specialized", "{C8807FD4-D76D-44BA-9A84-99D18B3C89D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Specs", "1. Specs", "{6F18B96A-CBCA-4CEB-AE6E-1D867680D60F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Strategies", "2. Strategies", "{0888491E-4DFE-462F-8321-3BE6E59B23B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFramework", "EntityFramework", "{BC2213EE-AEE7-4F51-B175-0BF89260C7EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestAPI", "RestAPI", "{68F0D312-B8CD-4BBA-8E37-0FB584BD6B58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SAPBusinessOne", "SAPBusinessOne", "{D70FFBB5-68FF-4424-862F-827BB78A25FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObiOne.DomainRepositoryPattern.Specialized.EF", "Specialized\2. Strategies\EntityFramework\ObiOne.DomainRepositoryPattern.Specialized.EF\ObiOne.DomainRepositoryPattern.Specialized.EF.csproj", "{4ADDC823-1B1A-4FA6-AB34-5099EED825D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObiOne.DomainRepositoryPattern.Specialized.EF.Tests", "Specialized\2. Strategies\EntityFramework\ObiOne.DomainRepositoryPattern.Specialized.EF.Tests\ObiOne.DomainRepositoryPattern.Specialized.EF.Tests.csproj", "{83FDAB23-D2F7-4CB8-825F-B919288B75E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObiOne.DomainRepositoryPattern.Specialized.RestAPI", "Specialized\2. Strategies\RestAPI\ObiOne.DomainRepositoryPattern.Specialized.RestAPI\ObiOne.DomainRepositoryPattern.Specialized.RestAPI.csproj", "{B7540BD2-1882-4BEE-AD4D-C0D4B354DD8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObiOne.DomainRepositoryPattern.Specialized.Specs", "Specialized\1. Specs\ObiOne.DomainRepositoryPattern.Specialized.Specs\ObiOne.DomainRepositoryPattern.Specialized.Specs.csproj", "{D3C94E02-DD6A-4927-9E20-F833921F0776}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObiOne.DomainRepositoryPattern.Specialized.RestAPI.Tests", "Specialized\2. Strategies\RestAPI\ObiOne.DomainRepositoryPattern.Specialized.RestAPI.Tests\ObiOne.DomainRepositoryPattern.Specialized.RestAPI.Tests.csproj", "{3B9C8F61-0104-48F7-A89F-C72B221F1340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObiOne.DomainRepositoryPattern.Specialized.DI", "Specialized\2. Strategies\SAPBusinessOne\ObiOne.DomainRepositoryPattern.Specialized.DI\ObiOne.DomainRepositoryPattern.Specialized.DI.csproj", "{32F8E9AD-8084-4F3D-9A17-A65AA16A2EE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEFB03C1-1473-48D5-A384-F5AC2839A299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFB03C1-1473-48D5-A384-F5AC2839A299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFB03C1-1473-48D5-A384-F5AC2839A299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFB03C1-1473-48D5-A384-F5AC2839A299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ADDC823-1B1A-4FA6-AB34-5099EED825D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADDC823-1B1A-4FA6-AB34-5099EED825D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADDC823-1B1A-4FA6-AB34-5099EED825D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADDC823-1B1A-4FA6-AB34-5099EED825D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83FDAB23-D2F7-4CB8-825F-B919288B75E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83FDAB23-D2F7-4CB8-825F-B919288B75E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83FDAB23-D2F7-4CB8-825F-B919288B75E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83FDAB23-D2F7-4CB8-825F-B919288B75E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7540BD2-1882-4BEE-AD4D-C0D4B354DD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7540BD2-1882-4BEE-AD4D-C0D4B354DD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7540BD2-1882-4BEE-AD4D-C0D4B354DD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7540BD2-1882-4BEE-AD4D-C0D4B354DD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C94E02-DD6A-4927-9E20-F833921F0776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C94E02-DD6A-4927-9E20-F833921F0776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C94E02-DD6A-4927-9E20-F833921F0776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C94E02-DD6A-4927-9E20-F833921F0776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9C8F61-0104-48F7-A89F-C72B221F1340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9C8F61-0104-48F7-A89F-C72B221F1340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9C8F61-0104-48F7-A89F-C72B221F1340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9C8F61-0104-48F7-A89F-C72B221F1340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F8E9AD-8084-4F3D-9A17-A65AA16A2EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F8E9AD-8084-4F3D-9A17-A65AA16A2EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F8E9AD-8084-4F3D-9A17-A65AA16A2EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F8E9AD-8084-4F3D-9A17-A65AA16A2EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEFB03C1-1473-48D5-A384-F5AC2839A299} = {F859DCD2-0997-4E63-9637-6059AB98DCDE}
+		{6F18B96A-CBCA-4CEB-AE6E-1D867680D60F} = {C8807FD4-D76D-44BA-9A84-99D18B3C89D1}
+		{0888491E-4DFE-462F-8321-3BE6E59B23B4} = {C8807FD4-D76D-44BA-9A84-99D18B3C89D1}
+		{BC2213EE-AEE7-4F51-B175-0BF89260C7EB} = {0888491E-4DFE-462F-8321-3BE6E59B23B4}
+		{68F0D312-B8CD-4BBA-8E37-0FB584BD6B58} = {0888491E-4DFE-462F-8321-3BE6E59B23B4}
+		{D70FFBB5-68FF-4424-862F-827BB78A25FC} = {0888491E-4DFE-462F-8321-3BE6E59B23B4}
+		{4ADDC823-1B1A-4FA6-AB34-5099EED825D1} = {BC2213EE-AEE7-4F51-B175-0BF89260C7EB}
+		{83FDAB23-D2F7-4CB8-825F-B919288B75E6} = {BC2213EE-AEE7-4F51-B175-0BF89260C7EB}
+		{B7540BD2-1882-4BEE-AD4D-C0D4B354DD8D} = {68F0D312-B8CD-4BBA-8E37-0FB584BD6B58}
+		{D3C94E02-DD6A-4927-9E20-F833921F0776} = {6F18B96A-CBCA-4CEB-AE6E-1D867680D60F}
+		{3B9C8F61-0104-48F7-A89F-C72B221F1340} = {68F0D312-B8CD-4BBA-8E37-0FB584BD6B58}
+		{32F8E9AD-8084-4F3D-9A17-A65AA16A2EE6} = {D70FFBB5-68FF-4424-862F-827BB78A25FC}
+	EndGlobalSection
+EndGlobal
